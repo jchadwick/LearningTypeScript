@@ -77,8 +77,8 @@ class InventoryStore {
       return errors;
     }
 
-    if (!item.type) {
-      addError("type", "Please select a valid Category");
+    if (!item.inventoryType) {
+      addError("inventoryType", "Please select a valid Category");
     }
 
     if (!item.name) {
@@ -95,7 +95,7 @@ class InventoryStore {
 
     //#endregion
 
-    switch (item.type) {
+    switch (item.inventoryType) {
       // Computer-specific validation
       case "computer":
         if (item.year > new Date().getFullYear()) {

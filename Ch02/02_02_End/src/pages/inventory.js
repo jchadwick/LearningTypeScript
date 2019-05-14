@@ -3,7 +3,7 @@ const inventoryDetails = Vue.extend({
   render(createDetails) {
     let details = null;
 
-    switch (this.item.type) {
+    switch (this.item.inventoryType) {
       case "computer":
         details = inventoryDetails.computer;
         break;
@@ -86,7 +86,7 @@ const InventoryList = Vue.extend({
   props: ["selectedItem", "inventory"],
   methods: {
     getIcon(item) {
-      switch (item.type) {
+      switch (item.inventoryType) {
         case "computer":
           return "fa-desktop";
 

@@ -25,7 +25,7 @@ const testData = {
   ],
   Inventory: [
     {
-      type: "computer",
+      inventoryType: "computer",
       trackingNumber: "0012390421899",
       name: "Michael's Dell Laptop",
       assignedTo: "Michael",
@@ -35,7 +35,7 @@ const testData = {
       serialNumber: "DELL12344"
     },
     {
-      type: "computer",
+      inventoryType: "computer",
       trackingNumber: "gftt4aVxzd",
       name: "Nina's MacBook Pro",
       assignedTo: "Nina",
@@ -45,7 +45,7 @@ const testData = {
       serialNumber: "APPL143223"
     },
     {
-      type: "computer",
+      inventoryType: "computer",
       trackingNumber: "42166GVZ",
       name: "Jess's Surface Book",
       assignedTo: "Jess",
@@ -55,7 +55,7 @@ const testData = {
       serialNumber: "MS19412412"
     },
     {
-      type: "furniture",
+      inventoryType: "furniture",
       trackingNumber: "20fdas00350vm",
       name: "Jess's Standing Desk",
       assignedTo: "Jess",
@@ -65,7 +65,7 @@ const testData = {
       color: "Black"
     },
     {
-      type: "furniture",
+      inventoryType: "furniture",
       trackingNumber: "as5532ffasvsF",
       name: "Nina's Standing Desk",
       assignedTo: "Nina",
@@ -75,7 +75,7 @@ const testData = {
       color: "White"
     },
     {
-      type: "furniture",
+      inventoryType: "furniture",
       trackingNumber: "95995566asvsF",
       name: "Michael's Desk",
       assignedTo: "Michael",
@@ -85,7 +85,7 @@ const testData = {
       color: "Silver"
     },
     {
-      type: "furniture",
+      inventoryType: "furniture",
       trackingNumber: "2lvf92UPR00",
       name: "Michael's Chair",
       assignedTo: "Michael",
