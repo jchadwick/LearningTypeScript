@@ -1,0 +1,28 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css");
+@import url("add-item/add-item.css");
+@import url("inventory/inventory.css");
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+#main-content {
+}
+
+.flex {
+  display: flex;
+}
+.grow {
+  flex-grow: 1;
+}
+
+.title {
+  margin-bottom: 1em;
+}
+
+.loading {
+  font-size: 150%;
+  padding-top: 50%;
+  text-align: center;
+}

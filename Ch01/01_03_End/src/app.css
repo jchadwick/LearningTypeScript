@@ -1,0 +1,26 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.8.1/css/all.min.css");
+@import url("pages/addItem.css");
+@import url("pages/inventory.css");
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+.grow {
+  flex-grow: 1;
+}
+
+.title {
+  margin-bottom: 1em;
+}
+
+.loading {
+  font-size: 150%;
+  padding-top: 40%;
+  text-align: center;
+}
