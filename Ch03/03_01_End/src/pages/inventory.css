@@ -1,0 +1,47 @@
+.menu-bar {
+    margin-top: -50px;
+    z-index: 10;
+  }
+  
+  .inventory-list {
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+  }
+  
+  .inventory-list .list-group-item:first-child {
+    border-top-right-radius: 0;
+  }
+  .inventory-list .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+  }
+  
+  .list-group-item .delete {
+    display: none;
+  }
+  .list-group-item:hover .delete {
+    display: inline-block;
+    color: red;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .inventory-panel {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+  }
+  
+  .add-item.btn {
+    margin: 0.5em;
+  }
+  
+  .inventory-panel label {
+    width: 8em;
+    padding-right: 1em;
+    text-align: right;
+  }
+  
