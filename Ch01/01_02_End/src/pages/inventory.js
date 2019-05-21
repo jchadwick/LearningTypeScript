@@ -3,7 +3,7 @@ const inventoryDetails = Vue.extend({
   render(createDetails) {
     let details = null;
 
-    switch (this.item.type) {
+    switch (this.item.inventoryType) {
       case "computer":
         details = inventoryDetails.computer;
         break;

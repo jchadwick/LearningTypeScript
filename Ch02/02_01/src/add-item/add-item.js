@@ -15,13 +15,13 @@ export default Vue.extend({
       return this.item && !!this.item.subCategory;
     },
     category() {
-      return this.categories.find(x => x.name === this.item.type) || {};
+      return this.categories.find(x => x.name === this.item.inventoryType) || {};
     },
     subCategories() {
       return this.category.subCategories;
     },
     editorComponent() {
-      switch (this.item.type) {
+      switch (this.item.inventoryType) {
         case "computer":
           return editComputer;
 

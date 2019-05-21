@@ -6,7 +6,7 @@ export default Vue.extend({
   render(createEditor) {
     let editor = null;
 
-    switch (this.item.type) {
+    switch (this.item.inventoryType) {
       case "computer":
         editor = computerEditor;
         break;

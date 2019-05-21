@@ -6,7 +6,7 @@ export default Vue.extend({
   render(createDetails) {
     let details = null;
 
-    switch (this.item.type) {
+    switch (this.item.inventoryType) {
       case "computer":
         details = computerDetails;
         break;
