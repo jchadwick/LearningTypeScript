@@ -100,10 +100,7 @@ const testData = {
 (function initializeTestData(testData) {
   Object.keys(testData).forEach(key => {
     if (localStorage.getItem(key) == null) {
-      console.log(`Initializing test data: ${key}`);
       localStorage.setItem(key, JSON.stringify(testData[key]));
     }
   });
-
-  console.log("Initialized test data");
 })(testData);

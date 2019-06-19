@@ -137,7 +137,7 @@ class InventoryStore {
     return this._save();
   }
 
-  //#region Protected methods
+  //#region Private methods
 
   /*  NOTE:
    *  This demo uses local storage to save and load inventory items,
@@ -178,5 +178,5 @@ class InventoryStore {
 // Create a "static" singleton instance for the entire application to use
 InventoryStore.instance = new InventoryStore();
 
-// Expose the singleton in its own variable
-const inventoryStore = InventoryStore.instance;
+// Expose the singleton as the default export
+export default InventoryStore.instance;

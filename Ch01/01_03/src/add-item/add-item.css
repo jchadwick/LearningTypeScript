@@ -1,0 +1,22 @@
+.form-container {
+  position: relative;
+}
+
+.form-container form {
+  padding: 2em;
+}
+
+.saving {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  background-color: rgba(200, 200, 200, 0.6);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 10px;
+}

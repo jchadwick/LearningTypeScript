@@ -1,11 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css");
-@import url("https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.8.1/css/all.min.css");
-@import url("pages/addItem.css");
-@import url("pages/inventory.css");
+@import url("add-item/add-item.css");
+@import url("inventory/inventory.css");
 
 body {
   width: 80%;
   margin: auto;
+}
+
+#main-content {
 }
 
 .flex {
@@ -21,6 +23,6 @@ body {
 
 .loading {
   font-size: 150%;
-  padding-top: 40%;
+  padding-top: 50%;
   text-align: center;
 }
